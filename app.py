@@ -18,7 +18,7 @@ if not api_key:
 
 # --- INITIALIZE MODEL ---
 llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-flash", 
+    model="gemini-3.5-flash",  # <--- Updated model name
     google_api_key=api_key, 
     temperature=0
 )
